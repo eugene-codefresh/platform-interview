@@ -42,3 +42,26 @@ docker run -it --rm -p 8080:8080 -e ENVIRONMENT="production" eugenecodefresh/int
 ```
 
 In browser type `http://localhost:8080`
+
+
+### Terraform
+
+How to run :
+* go into terraform directory
+```
+cd terraform
+```
+* create secrets.tfvars file the next variables:
+```
+aws_access_key = "your-access-key"
+aws_secret_key = "your-secret-key"
+```
+* go through other variables and change them as needed
+* Init terraform 
+```
+terraform init
+```
+* Apply your resource configuration
+```
+terraform apply -var-file="secrets.tfvars"
+```
