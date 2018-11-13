@@ -31,7 +31,7 @@ docker build -t eugenecodefresh/interview:1.0 .
 ```
 and push to docker image registry:
 ```
-docker push eugenecodefresh/interview:1.0 .
+docker push eugenecodefresh/interview:1.0
 ```
 
 ### Testing the image
