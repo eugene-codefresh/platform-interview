@@ -5,3 +5,5 @@ servlet.iml
 target/**/*
 !target/servlet-1.0-SNAPSHOT.war
 Platform_Code_Challenge.docx
+secrets.tfvars
+.terraform

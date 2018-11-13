@@ -1,0 +1,21 @@
+[
+    {
+      "name": "platform",
+      "image": "${image}",
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "hostPort": 8080
+        }
+      ],
+      "memory": 512,
+      "networkMode": "awsvpc",
+      "environment": [
+        {
+          "name": "ENVIRONMENT",
+          "value": "production"
+        }
+      ]
+    }
+  ]
+  
